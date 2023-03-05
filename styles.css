@@ -1,0 +1,123 @@
+:root{
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+}
+body{
+    background-color: hsl(225, 100%, 98%);
+     background-image:url(/images/pattern-background-desktop.svg); 
+background-repeat:no-repeat;
+}
+
+.parent{
+    height:100vh;
+    border: solid pink;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+    /* width: 40%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color:pink; */
+}
+.rectangle{
+    width: 250px;
+    height:430px;
+    align-items:center;
+    background-color:white;
+    border-radius:20px;
+}
+.music{
+    width:100%;
+    border-radius:20px 20px 0 0;
+}
+.text1{
+    font-weight:700;
+    font-size:25px;
+    /* margin-left:-280px; */
+    /* padding-bottom:40px; */
+    text-align: center;
+    
+}
+.text2{
+    text-align: center;
+    margin: 0 20px;
+    font-size:12px;
+    color:var(--Desaturated-blue);
+}
+
+.box{
+    width:200px;
+    background-color:var(--Very-pale-blue) ;
+    height:40px;
+    align-items:center;
+    border-radius:10px;
+    /* left:-30px; */
+    padding-bottom:20px;
+    margin-left:25px;
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    
+}
+.music-icon{
+    width:30px;
+    height:30px;
+    margin-top:10px;
+    margin-left:5px;
+}
+.annual{
+    font-size:12px;
+    font-weight:700;
+    margin-left:10px;
+}
+.price{
+    color: var(--bright-blue);
+    font-size:10px;
+    margin-top:40px;
+    margin-left:-60px;
+    margin-right:40px;
+    color:var(--Desaturated-blue);
+}
+.center{
+    position: relative;
+    margin-top:25px;
+    margin-bottom:10px;
+    font-size:15px;
+    color:blue;
+
+}
+.center:hover{
+text-decoration: none;
+}
+.bluey{
+    height:30px;
+    width:200px;
+    margin-top:20px;
+    background-color:var(--Bright-blue);
+    border-radius:10px;
+    margin-left:25px;
+}
+.bluey:hover{
+    opacity:0.5;
+}
+.proceed{
+    color:white;
+    margin-left:50px ;
+    font-size:12px;
+padding-top:5px;
+}
+.last{
+    color:var(--Desaturated-blue);
+    margin-left:80px;
+font-size:12px;
+}
+.last:hover{
+    color:var(--Dark-blue);
+}
