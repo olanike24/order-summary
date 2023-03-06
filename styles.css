@@ -7,12 +7,12 @@
 }
 body{
     background-color: hsl(225, 100%, 98%);
-     background-image:url(/images/pattern-background-desktop.svg); 
+     background-image:url("./images/pattern-background-desktop.svg"); 
 background-repeat:no-repeat;
 }
 
 .parent{
-    height:100vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items: center;
