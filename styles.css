@@ -13,7 +13,6 @@ background-repeat:no-repeat;
 
 .parent{
     height:100vh;
-    border: solid pink;
     display:flex;
     justify-content:center;
     align-items: center;
